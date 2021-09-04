@@ -42,12 +42,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         String inputName = etUsername.getText().toString();
         String inputPasswrod = etPassword.getText().toString();
-//        if ((inputName.matches("Bret") && inputPasswrod.matches("1234"))  || (inputName.matches("Antonette")  && inputPasswrod.matches("1231"))
-//                || (inputName.matches("Samantha") && inputPasswrod.matches("1232")) || inputName.matches("Karianne")&& inputPasswrod.matches("1233")
-//                || (inputName.matches("Kamren") && inputPasswrod.matches("1235")) || (inputName.matches("Leopoldo_Corkery") && inputPasswrod.matches( "1236"))
-//                || (inputName.matches("Elwyn.Skiles") && inputPasswrod.matches("1237")) || (inputName.matches("Maxime_Nienow") && inputPasswrod.matches("12348"))
-//                || (inputName.matches("Delphine") && inputPasswrod.matches("1239"))
-                if(inputName.matches("Moriah.Stanton") && inputPasswrod.matches("12341") ) {
+        if ((inputName.matches("Bret") && inputPasswrod.matches("1234"))  || (inputName.matches("Antonette")  && inputPasswrod.matches("1231"))
+                || (inputName.matches("Samantha") && inputPasswrod.matches("1232")) || inputName.matches("Karianne")&& inputPasswrod.matches("1233")
+                || (inputName.matches("Kamren") && inputPasswrod.matches("1235")) || (inputName.matches("Leopoldo_Corkery") && inputPasswrod.matches( "1236"))
+                || (inputName.matches("Elwyn.Skiles") && inputPasswrod.matches("1237")) || (inputName.matches("Maxime_Nienow") && inputPasswrod.matches("12348"))
+                || (inputName.matches("Delphine") && inputPasswrod.matches("1239")) ||
+                (inputName.matches("Moriah.Stanton") && inputPasswrod.matches("12341") ) ) {
             Intent i = new Intent(this, Landing.class);
             startActivity(i);
 
@@ -64,4 +64,3 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-}
